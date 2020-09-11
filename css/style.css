@@ -59,30 +59,37 @@ body {
 /*================================*/
 
 .popup-one {
-	max-width: 1168px;
+	max-width: 900px;
 	width: 100%;
-	height: 716px;
+	height: 565px;
 	border-radius: 23px;
 	background: #fff;
 	position:relative;
 	top:0;
     left:0;
     z-index:9999;
+    margin: 0 auto;
 }
 
 .box-modal {
 	display: flex;
-	height: 717px;
+	height: 565px;
 } 
 
+.img-popup {
+	border-radius: 23px;
+	width: 315px;
+	background: url(../img/popup-one.png) top right no-repeat;
+}
+
 .popup-form {
-	margin-left: 55px;
+	margin-left: 35px;
 }
 
 .popup-form__title {
 	font-size: 47px;
 	font-weight: 800;
-	margin-top: 90px;
+	margin-top: 20px;
 	margin-bottom: 63px;
 }
 
@@ -123,7 +130,7 @@ textarea::-webkit-input-placeholder { color: #1A1818; }
 }
 
 .block-color {
-	max-width: 128px;
+	max-width: 70px;
 	width: 100%;
 	background: #E06965;
 	border-radius: 23px 0 0 23px;
@@ -138,11 +145,11 @@ textarea::-webkit-input-placeholder { color: #1A1818; }
 }
 
 .form-right {
-	margin-left: 116px;
+	margin-left: 50px;
 }
 
 .assess {
-	margin-top: 198px;
+	margin-top: 128px;
 }
 
 .assess__title {
