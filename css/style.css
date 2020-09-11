@@ -143,14 +143,16 @@ textarea::-webkit-input-placeholder { color: #1A1818; }
 
 .forms-twoo input {
 	margin-bottom: 61px;
+	width: 330px;
 }
 
 .forms-twoo textarea {
 	margin-bottom: 73px;
+	width: 330px;
 }
 
 .form-right {
-	margin-left: 35px;
+	margin-left: 70px;
 }
 
 .assess {
