@@ -1,0 +1,237 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+@font-face {
+  font-family: MyriadPro;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/MyriadPro-Regular.otf);
+ }
+
+body {
+	background: grey;
+	padding-top: 100px;
+	font-family: lato;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/*================================*/
+
+.popup-one {
+	max-width: 1168px;
+	width: 100%;
+	height: 716px;
+	border-radius: 23px;
+	background: #fff;
+	position:relative;
+	top:0;
+    left:0;
+    z-index:9999;
+}
+
+.box-modal {
+	display: flex;
+	height: 717px;
+} 
+
+.popup-form {
+	margin-left: 55px;
+}
+
+.popup-form__title {
+	font-size: 47px;
+	font-weight: 800;
+	margin-top: 90px;
+	margin-bottom: 63px;
+}
+
+.forms input, textarea, button {
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	background: #E0E1E3;
+	width: 380px;
+	height: 56px;
+	padding: 12px 20px 16px 20px;
+	margin-bottom: 26px;
+	border-radius: 40px;
+}
+
+input::placeholder { color: #1A1818; }
+input::-moz-placeholder { color: #1A1818; }
+input::-webkit-input-placeholder { color: #1A1818; }
+
+textarea {
+	height: 158px;
+	border-radius: 28px;
+	resize: none;
+}
+
+textarea::placeholder { color: #1A1818; }
+textarea::-moz-placeholder { color: #1A1818; }
+textarea::-webkit-input-placeholder { color: #1A1818; }
+
+.forms__btn {
+	font-size: 25px;
+	color: #fff;
+	background: #EB4125;
+	max-width: 214px;
+	height: 56px;
+	padding: 10px 20px 13px 20px;
+	box-shadow: 0px 5px 12px -5px rgba(0, 0, 0, .5);
+}
+
+.block-color {
+	max-width: 128px;
+	width: 100%;
+	background: #E06965;
+	border-radius: 23px 0 0 23px;
+}
+
+.forms-twoo input {
+	margin-bottom: 61px;
+}
+
+.forms-twoo textarea {
+	margin-bottom: 73px;
+}
+
+.form-right {
+	margin-left: 116px;
+}
+
+.assess {
+	margin-top: 198px;
+}
+
+.assess__title {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.stars {
+	display: flex;
+	margin-top: 18px;
+	align-items: flex-end;
+	font-family: MyriadPro;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+.stars-rating {
+	width: 24px;
+  	height: 24px;
+  	margin-right: 6px;
+	background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNS41NzIiIGhlaWdodD0iMjQuMzIiIHZpZXdCb3g9IjAgMCAyNS41NzIgMjQuMzIiPg0KICA8cGF0aCBpZD0i0JrQvtC90YLRg9GAXzU3OCIgZGF0YS1uYW1lPSLQmtC+0L3RgtGD0YAgNTc4IiBkPSJNNTIxNC4wNjEsNjIyOS4zNTRsMy42NTksNy40MTQsOC4xODEsMS4xODgtNS45Miw1Ljc3MSwxLjQsOC4xNDgtNy4zMTgtMy44NDctNy4zMTcsMy44NDcsMS40LTguMTQ4LTUuOTItNS43NzEsOC4xODEtMS4xODhaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTIwMS4yNzUgLTYyMjguMzU5KSIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjOTY5OTljIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMC44OCIvPg0KPC9zdmc+DQo=');
+     background-position:center;
+}
+
+.stars-rating:last-child {
+	margin-right: 17px;
+}
+
+.form-input {
+	position: relative;
+}
+
+.upload {
+	font-weight: 400;
+	display: block;
+	color: #1A1818;
+	background: #E0E1E3;
+	font-size: 25px;
+	border-radius: 30px;
+	height: 52px;
+	width: 230px;
+	padding: 12px 20px;
+	margin-top: 30px;
+}
+
+#myfile {
+	display: none;
+}
+
+#myfiles {
+	display: none;
+}
+
+#mylabel {
+	font-weight: 400;
+	font-size: 25px;
+	max-width: 195px;
+	height: 52px;
+	background: #EB4125;
+	padding : 11px 38px;
+    color : #fff;
+    cursor : pointer;
+	position: absolute;
+	top: 0;
+	right: -35px;
+	border-radius: 30px;
+	box-shadow: -6px 0 10px -3px rgba(0, 0, 0, .5);
+}
+
+#myOverlay {
+  z-index: 37;
+  position: fixed;
+  background: rgba(0,0,0,.7);
+  width: 100%; 
+  height: 100%;
+  top: 0; 
+  left: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-modals {
+	margin-top: 350px;
+	margin-left: 50px;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+
